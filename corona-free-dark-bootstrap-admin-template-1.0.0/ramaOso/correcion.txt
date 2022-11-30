@@ -1,0 +1,7 @@
+resgistro
+crear registro idependiente para motoviajero y motoposada o resgistro
+-moto poasada necesita - lugar de residencia
+-crear segunda opcion de correo electronico para recuperacion con correo alternativo
+-posible catpcha
+-CC Tiene que ir de forma obligatoria 
+-mejorar descripcion de criterio
