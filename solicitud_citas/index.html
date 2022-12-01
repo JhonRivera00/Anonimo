@@ -1,0 +1,94 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+  <body>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/checkout/">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <link href="form-validation.css" rel="stylesheet">
+   </head>
+  <body class="bg-ligth">
+    
+ <div class="container ">
+  <h4 class="mb-2 mt-5">Solicitar Charla</h4>
+      <div class="contenedor col-my-7 col-lg-7 my-7 rounded bg-ligth" >
+
+        <form class="needs-validation m-2" novalidate>
+          <div class="row g-3 my-4">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="firstName" placeholder="Ingrese su nombre" value="" required>
+              <div class="invalid-feedback">
+                Se requiere un nombre válido.
+              </div>
+            </div>
+
+            <div class="col-sm-6 ">
+              <label for="lastName" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="lastName" placeholder="Ingrese su apellido" value="" required>
+              <div class="invalid-feedback">
+                Se requiere un apellido válido.
+              </div>
+            </div>
+
+            <div class="col-12 ">
+              <label for="fecha" class="form-label">Fecha</label>
+              <div class="input-group has-validation">
+                <input type="date" class="form-control" id="fecha" required>
+              <div class="invalid-feedback">
+                  Se requiere un fecha válida.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="motivo" class="form-label">Rango de Horario</label>
+              <input type="time" class="form-control" id="motivo" placeholder="Motivo de la cita" required>
+              <div class="invalid-feedback">
+                Se requiere un rango de horario valido 
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <label for="validationCustom04" class="form-label">Psicologa</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Seleccionar</option>
+                <option>Psicologa 1</option>
+                <option>Psicologa 2</option>
+              </select>
+              <div class="invalid-feedback">
+                Seleccione una Psicologa.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address2" class="form-label">Motivo</label>
+              <textarea type="text" class="form-control" id="address2" placeholder="Motivo de su cita" required></textarea>
+            <div class="invalid-feedback">
+              Escriba el motivo de su charla
+            </div>
+          </div>
+
+
+            <div class="col-md-3 my-4" >
+              <input class="btn btn-primary" type="submit" value="Solicitar">
+          </div>
+
+        </form>
+      </div>
+ </div>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      <script src="form-validation.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
